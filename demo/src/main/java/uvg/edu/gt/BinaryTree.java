@@ -10,7 +10,7 @@ import java.io.IOException;
  * @param <K> Tipo de la clave del nodo.
  * @param <V> Tipo del valor del nodo.
  */
-class BinaryTree<K extends Comparable<K>, V> {
+public class BinaryTree<K extends Comparable<K>, V> {
     Nodo<K, V> root;
 
     /**
